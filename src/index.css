@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #2563EB;
+}
+
+body {
+    margin-top: 20px !important;
+    min-height: calc(100vh - 50px);
+    background: linear-gradient(135deg,
+            #f0f4f8 0%,
+            #e0e7ef 50%,
+            #ffffff 100%);
+}
+
+
+.icon-dev {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-icon {
+    color: white;
+}
+
+.landing-header {
+    margin: 100px 0;
+}
+
+.landing-header p:first-of-type {
+    padding: 10px 20px;
+    width: fit-content;
+    margin: 20px auto;
+    color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.landing-header h2 {
+    color: var(--primary-color);
+    margin: 20px 0;
+}
+
+.feature-card {
+    transition: .5s;
+}
+
+.feature-card:hover {
+    transform: scale(1.1) translateY(5px);
+}
