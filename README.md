@@ -4,10 +4,8 @@
 2. Approach
 3. Key Decisions
 4. Challenges & Solutions
-5. Features
-6. Tech Stack
-7. Installation
-8. Future Improvements
+5. Tech Stack
+6. Installation
 
 ## Overview
 
@@ -137,4 +135,10 @@ screen-recorder/
 
 1. **Clone المشروع**
 ```bash
-git clone https://github.com/username/project-name.git
+git clone https://github.com/Nader-Gamal3011/ScreenFlow.git
+2. الدخول إلى فولدر المشروع
+cd ScreenFlow
+3.تثبيت الـ Dependencies
+npm install
+4.تشغيل المشروع
+npm run dev
